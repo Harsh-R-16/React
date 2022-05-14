@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  margin-top: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#debounce {
+  border: 1px solid rgb(123, 123, 123);
+  padding: 10px;
+  margin: 15px 5vw;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#debounce input {
+  margin-top: 20px;
+  padding: 2px 7px;
+}
+#debounce h2 {
+  margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
+#fetch {
+  border: 1px solid rgb(123, 123, 123);
+  padding: 10px;
+  margin: 15px 5vw;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#fetch section div {
+  border: 1px solid #000;
+  height: 300px;
+  width: 800px;
+  padding: 15px 20px;
+  margin: 22px auto;
+  overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fetch img {
+  width: 200px;
+  height: 100%;
+  float: left;
+  clear: both;
+  margin-right: 30px;
+}
+#fetch > h1,
+div#btns {
+  width: fit-content;
+  margin: 15px auto;
+}
+
+#btns button {
+  color: #fff;
+  background-color: #000;
+  border: none;
+  padding: 5px 15px;
+  margin: 5px 15px;
+  text-transform: capitalize;
+}
+section div * {
+  margin-bottom: 10px;
+  line-height: 130%;
+}
+#progress h1 {
+  text-align: center;
+  margin: 30px;
 }
