@@ -1,21 +1,29 @@
 import React from "react";
 
 export default function Toggle() {
-  const toggler = () => {
-    let num = 1;
+  const toggler = (...nums) => {
+    let index = 0;
+    console.log("start");
     return () => {
-      console.log(num++);
-      if (num === 5) num = 1;
+      console.log(nums[index]);
+      index++;
+      if (index == nums.length) index = 0;
     };
   };
-  const toggle = toggler();
-  toggle();
-  toggle();
-  toggle();
-  toggle();
-  toggle();
-  toggle();
-  toggle();
-  toggle();
+  const toggle1 = toggler(1, 2, 3, 4, 5);
+  toggle1();
+  toggle1();
+  toggle1();
+  toggle1();
+  toggle1();
+  toggle1();
+  toggle1();
+  const toggle2 = toggler(1, 2, 3);
+  toggle2();
+  toggle2();
+  toggle2();
+  toggle2();
+  toggle2();
+  toggle2();
   return <div>Toggle</div>;
 }
