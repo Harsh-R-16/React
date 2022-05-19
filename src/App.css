@@ -63,3 +63,16 @@ section div * {
   text-align: center;
   margin: 30px;
 }
+
+#timer {
+  border: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  padding: 20px 40px 10px;
+  margin: 30vh auto;
+}
+#timer h2 {
+  margin: 15px 0;
+  font-size: 40px;
+  letter-spacing: 2px !important;
+}
