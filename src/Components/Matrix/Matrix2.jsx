@@ -41,7 +41,13 @@ export default function Matrix1() {
       <section>
         {mat.map((i, x) =>
           i.map((j, y) => (
-            <p style={{ color: `${sum100[`${x}${y}`] ? "red" : ""}` }}>{j}</p>
+            <p
+              style={{
+                color: `${sum100[`${x}${y}`] || j % 5 === 0 ? "red" : ""}`,
+              }}
+            >
+              {j}
+            </p>
           ))
         )}
       </section>
