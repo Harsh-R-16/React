@@ -7,8 +7,9 @@ import Recursion from "./Components/Recursion/Recursion";
 import Slider from "./Components/Slider/Slider";
 import Scroll from "./Components/Scroll/Scroll";
 import Timer from "./Components/Timer/Timer";
-import Comments from "./Components/Comments/Comments";
-import "./App.css";
+import Comments from "./Components/Comments/Main";
+import Matrix1 from "./Components/Matrix/Matrix1";
+import Matrix2 from "./Components/Matrix/Matrix2";
 function App() {
   return (
     <>
@@ -20,7 +21,9 @@ function App() {
       {/* <Slider /> */}
       {/* <Scroll /> */}
       {/* <Timer /> */}
-      <Comments />
+      {/* <Comments /> */}
+      <Matrix1 />
+      <Matrix2 />
     </>
   );
 }

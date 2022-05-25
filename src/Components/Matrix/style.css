@@ -1,0 +1,19 @@
+#mat h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+#mat section {
+  border: 1px solid rgb(97, 97, 97);
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 50px auto;
+}
+#mat p {
+  border: 1px solid rgb(97, 97, 97);
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  aspect-ratio: 1;
+}

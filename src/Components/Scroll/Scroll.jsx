@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import url from "./data";
 import "./style.css";
 let running;
 
@@ -7,7 +8,7 @@ export default function Scroll() {
   const [images, setImages] = useState([[], [], []]);
 
   useEffect(() => {
-    fetch(`https://unsplash.com/napi/photos?per_page=30&page=${page}`)
+    fetch(`${url}?per_page=30&page=${page}`)
       .then((res) => res.json())
       .then((res) => {
         setImages((images) => [

@@ -7,7 +7,7 @@ export default function Toggle() {
     return () => {
       console.log(nums[index]);
       index++;
-      if (index == nums.length) index = 0;
+      if (index === nums.length) index = 0;
     };
   };
   const toggle1 = toggler(1, 2, 3, 4, 5);

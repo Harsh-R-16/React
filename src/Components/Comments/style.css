@@ -1,0 +1,57 @@
+#comments h1 {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+}
+
+#comments h5 {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px auto;
+  width: fit-content;
+  cursor: pointer;
+}
+
+#comments li {
+  margin-bottom: 25px;
+}
+
+#comments span {
+  cursor: pointer;
+}
+
+#comments ol {
+  padding: 15px 35px 0;
+}
+
+#comments p {
+  margin: 5px 0;
+}
+
+h3 {
+  font-size: 13.5px;
+  margin: 7px 0;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#comments button {
+  margin-left: 10px;
+  padding: 3px 10px;
+  background-color: #fff;
+  font-size: 12px;
+  border: 1px solid rgb(151, 150, 150);
+}
+
+.para {
+  margin-bottom: 10px !important;
+}
